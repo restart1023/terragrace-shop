@@ -90,15 +90,6 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <div className="mt-10 flex justify-start">
-                      <Link
-                        href="/products"
-                        className="inline-flex min-h-[52px] items-center justify-center bg-black px-8 text-center text-[12px] font-semibold tracking-[0.08em] text-white transition hover:opacity-85"
-                      >
-                        商品一覧ページを見る
-                      </Link>
-                    </div>
-
                   </div>
                 </div>
               </div>
