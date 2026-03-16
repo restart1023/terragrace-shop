@@ -22,16 +22,16 @@ const categoryCards = [
 
 const featureBlocks = [
   {
-    title: "MINIMAL DESIGN",
-    text: "余計な装飾を削ぎ落としたミニマルなデザイン。日常に自然に馴染み、長く使いたくなる一着です。",
+    title: "大地の恵みを纏う",
+    text: "TerraGraceは、日本の大地が育んだ特別な鉱石の力に着目し、日々のコンディションに寄り添う新しいリカバリーウェアを目指しています。",
   },
   {
-    title: "COMFORTABLE DAILY WEAR",
-    text: "くつろぎの時間だけでなく、日常着としても取り入れやすいデザインと着心地を大切にしています。",
+    title: "日常に溶け込むデザイン",
+    text: "くつろぎの時間だけでなく、外出や日常着としても自然に取り入れやすい、ミニマルで洗練されたデザインに仕上げています。",
   },
   {
-    title: "EASY CARE",
-    text: "軽く、乾きやすく、扱いやすい素材感。毎日のワードローブに取り入れやすい仕様です。",
+    title: "軽く、扱いやすい",
+    text: "ポリエステル100%の軽やかな機能素材を採用。乾きやすく、ストレスフリーで、毎日のワードローブに取り入れやすい一着です。",
   },
 ];
 
@@ -41,22 +41,23 @@ export default function Home() {
       {/* HERO */}
       <section className="border-b border-neutral-200 bg-white">
         <div className="mx-auto grid max-w-[1440px] grid-cols-1 lg:grid-cols-[0.95fr_1.05fr]">
+          {/* LEFT */}
           <div className="border-b border-neutral-200 lg:border-b-0 lg:border-r">
-            <div className="flex min-h-auto items-center px-5 py-14 sm:px-8 sm:py-16 md:px-10 md:py-20 lg:min-h-[860px] lg:px-14 xl:px-16">
+            <div className="flex min-h-auto items-center px-5 py-14 sm:px-8 sm:py-16 md:px-10 md:py-20 lg:min-h-[920px] lg:px-14 xl:px-16">
               <div className="w-full">
                 <p className="text-[11px] font-medium uppercase tracking-[0.28em] text-neutral-500 sm:text-[12px]">
-                  New Collection
+                  リカバリーウェア
                 </p>
 
-                <h1 className="mt-5 text-[52px] font-semibold leading-[0.92] tracking-[-0.06em] sm:text-[72px] md:text-[90px] xl:text-[108px]">
-                  TERRA
-                  <br />
-                  GRACE
+                <h1 className="mt-5 text-[34px] font-semibold leading-[1.22] tracking-[-0.04em] sm:text-[46px] md:text-[58px] xl:text-[68px]">
+                  それは、ただのＴシャツではない。<br />
+                  日本の大地が生んだ、<br />
+                  新しいリカバリーウェアのかたち。
                 </h1>
 
-                <p className="mt-6 max-w-[560px] text-[14px] leading-[2] text-neutral-600 sm:text-[15px] md:text-[16px]">
-                  ミニマルで洗練された佇まい。今の空気に合う、モダンなリカバリーウェア。
-                  心地よさと美しさを両立し、日々のコンディションに寄り添います。
+                <p className="mt-6 max-w-[640px] text-[15px] leading-[2] text-neutral-700 sm:text-[16px]">
+                  大地の恵みから生まれた“やすらぎのエネルギー”。
+                  TerraGraceは、着心地と美しさを両立しながら、毎日のコンディションにそっと寄り添う一着です。
                 </p>
 
                 <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -68,11 +69,42 @@ export default function Home() {
                   </Link>
 
                   <Link
-                    href="/products/black"
+                    href="/contact"
                     className="inline-flex min-h-[50px] items-center justify-center border border-black px-7 text-center text-[12px] font-semibold tracking-[0.08em] text-black transition hover:bg-black hover:text-white"
                   >
-                    ブラックを見る
+                    お問い合わせはこちら
                   </Link>
+                </div>
+
+                <div className="mt-10 border-t border-neutral-200 pt-7">
+                  <div className="space-y-5">
+                    <p className="max-w-[720px] text-[14px] leading-[2] text-neutral-600">
+                      約6,600万年前、地殻の変動で生まれ育まれた特別な鉱石「貴陽石」は、
+                      世界で唯一、群馬県利根郡片品村・群馬長石鉱床御座入鉱山でのみ採掘される神秘の天然石です。
+                      この鉱石は、遠赤外線・近赤外線・テラヘルツ波・マイナスイオンを放射する特性を持ち、
+                      自然のぬくもりを感じさせてくれます。
+                    </p>
+
+                    <p className="max-w-[720px] text-[14px] leading-[2] text-neutral-600">
+                      リカバリーウェア「TerraGrace」は、この特別な鉱石を繊維生地にプリント。
+                      まるで温泉に包まれるような感覚で、やさしく寄り添うような着心地を目指しました。
+                      貴陽石のぬくもりが、あなたの毎日にそっと寄り添います。
+                    </p>
+
+                    <div className="grid gap-3 pt-2 sm:max-w-[620px]">
+                      <div className="flex flex-col gap-1 border-b border-neutral-200 pb-3 sm:flex-row sm:items-center sm:justify-between">
+                        <span className="text-[15px] font-semibold text-black">“Terra”</span>
+                        <span className="text-[14px] text-neutral-600">地球・大地の力</span>
+                      </div>
+
+                      <div className="flex flex-col gap-1 border-b border-neutral-200 pb-3 sm:flex-row sm:items-center sm:justify-between">
+                        <span className="text-[15px] font-semibold text-black">“Grace”</span>
+                        <span className="text-[14px] text-neutral-600">
+                          心と体を整える波動という恵み
+                        </span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
                 <div className="mt-10 grid gap-5 border-t border-neutral-200 pt-7 sm:grid-cols-3 sm:gap-4">
@@ -82,12 +114,14 @@ export default function Home() {
                     </p>
                     <p className="mt-2 text-[15px] font-semibold">White / Black</p>
                   </div>
+
                   <div>
                     <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-neutral-500 sm:text-[11px]">
                       Size
                     </p>
                     <p className="mt-2 text-[15px] font-semibold">S / M / L / LL</p>
                   </div>
+
                   <div>
                     <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-neutral-500 sm:text-[11px]">
                       Price
@@ -99,39 +133,18 @@ export default function Home() {
             </div>
           </div>
 
+          {/* RIGHT */}
           <div className="bg-[#f5f5f5]">
-            <div className="flex min-h-[420px] items-center justify-center px-5 py-10 sm:px-8 sm:py-12 md:min-h-[560px] md:px-10 lg:min-h-[860px] lg:px-14 lg:py-14">
+            <div className="flex min-h-[420px] items-center justify-center px-5 py-10 sm:px-8 sm:py-12 md:min-h-[560px] md:px-10 lg:min-h-[920px] lg:px-14 lg:py-14">
               <Image
                 src="/hero.jpg"
                 alt="TerraGrace Hero"
                 width={2000}
                 height={2400}
                 priority
-                className="h-auto max-h-[760px] w-full object-contain"
+                className="h-auto max-h-[820px] w-full object-contain"
               />
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* BRAND INTRO */}
-      <section className="border-b border-neutral-200 bg-white">
-        <div className="mx-auto max-w-[1440px] px-5 py-14 sm:px-8 md:px-10 md:py-20 lg:px-12">
-          <div className="max-w-[900px]">
-            <p className="text-[11px] font-medium uppercase tracking-[0.28em] text-neutral-500 sm:text-[12px]">
-              About TerraGrace
-            </p>
-
-            <h2 className="mt-5 text-[34px] font-semibold leading-[1.08] tracking-[-0.04em] sm:text-[44px] md:text-[56px]">
-              MODERN RECOVERY WEAR
-              <br className="hidden sm:block" />
-              WITH A CLEAN PRESENCE
-            </h2>
-
-            <p className="mt-6 max-w-[760px] text-[14px] leading-[2] text-neutral-600 sm:text-[15px] md:text-[16px]">
-              TerraGraceは、日々のコンディションを整えるための発想から生まれたリカバリーウェアです。
-              着心地のよさだけではなく、日常に自然に溶け込む洗練されたデザインを大切にしています。
-            </p>
           </div>
         </div>
       </section>
@@ -142,10 +155,10 @@ export default function Home() {
           <div className="mb-10 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <p className="text-[11px] font-medium uppercase tracking-[0.28em] text-neutral-500 sm:text-[12px]">
-                Categories
+                Products
               </p>
               <h2 className="mt-4 text-[34px] font-semibold leading-[1.06] tracking-[-0.04em] sm:text-[42px] md:text-[52px]">
-                COLOR FOCUS
+                カラーバリエーション
               </h2>
             </div>
 
@@ -199,65 +212,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* EDITORIAL */}
-      {categoryCards.map((card, index) => (
-        <section key={card.title} className="border-b border-neutral-200 bg-white">
-          <div className="mx-auto grid max-w-[1440px] grid-cols-1 lg:grid-cols-2">
-            <div
-              className={`bg-[#f5f5f5] ${
-                index % 2 === 0
-                  ? "border-b border-neutral-200 lg:order-2 lg:border-b-0 lg:border-l"
-                  : "border-b border-neutral-200 lg:border-b-0 lg:border-r"
-              }`}
-            >
-              <div className="flex min-h-[360px] items-center justify-center p-6 sm:min-h-[480px] sm:p-10 md:min-h-[620px] md:p-14 lg:p-16">
-                <Image
-                  src={card.image}
-                  alt={card.title}
-                  width={1600}
-                  height={1800}
-                  className="h-full max-h-[620px] w-full object-contain"
-                />
-              </div>
-            </div>
-
-            <div className={`${index % 2 === 0 ? "lg:order-1" : ""} flex`}>
-              <div className="flex w-full flex-col justify-center px-5 py-14 sm:px-8 md:px-10 md:py-20 lg:px-12">
-                <p className="text-[11px] font-medium uppercase tracking-[0.28em] text-neutral-500 sm:text-[12px]">
-                  Editorial
-                </p>
-
-                <h2 className="mt-5 text-[34px] font-semibold leading-[1.04] tracking-[-0.04em] sm:text-[46px] md:text-[58px]">
-                  {index === 0 ? "MINIMAL WHITE" : "ESSENTIAL BLACK"}
-                </h2>
-
-                <p className="mt-6 max-w-[560px] text-[14px] leading-[2] text-neutral-600 sm:text-[15px] md:text-[16px]">
-                  {card.description}
-                </p>
-
-                <div className="mt-8">
-                  <Link
-                    href={card.href}
-                    className="inline-flex min-h-[50px] items-center justify-center bg-black px-7 text-center text-[12px] font-semibold tracking-[0.08em] text-white transition hover:opacity-85"
-                  >
-                    {index === 0 ? "ホワイトを見る" : "ブラックを見る"}
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      ))}
-
-      {/* FEATURES */}
+      {/* FEATURE BLOCKS */}
       <section className="border-b border-neutral-200 bg-white">
         <div className="mx-auto max-w-[1440px] px-5 py-14 sm:px-8 md:px-10 md:py-20 lg:px-12">
           <div className="mb-10 max-w-[760px]">
             <p className="text-[11px] font-medium uppercase tracking-[0.28em] text-neutral-500 sm:text-[12px]">
-              Feature
+              Features
             </p>
             <h2 className="mt-4 text-[34px] font-semibold leading-[1.06] tracking-[-0.04em] sm:text-[42px] md:text-[52px]">
-              DESIGNED FOR DAILY COMFORT
+              TerraGrace の特徴
             </h2>
           </div>
 
@@ -285,12 +248,14 @@ export default function Home() {
             </p>
             <p className="mt-3 text-[18px] font-semibold">WHITE / BLACK</p>
           </div>
+
           <div>
             <p className="text-[10px] uppercase tracking-[0.22em] text-neutral-400 sm:text-[11px]">
               Size
             </p>
             <p className="mt-3 text-[18px] font-semibold">S / M / L / LL / 3L / 4L</p>
           </div>
+
           <div>
             <p className="text-[10px] uppercase tracking-[0.22em] text-neutral-400 sm:text-[11px]">
               Price
@@ -308,14 +273,14 @@ export default function Home() {
           </div>
 
           <h2 className="mt-5 text-[36px] font-semibold leading-[1.08] tracking-[-0.04em] sm:text-[52px] md:text-[64px]">
-            DISCOVER
+            毎日に寄り添う、
             <br />
-            YOUR ESSENTIAL
+            新しいリカバリーウェア
           </h2>
 
           <p className="mx-auto mt-6 max-w-[720px] text-[14px] leading-[2] text-neutral-600 sm:text-[15px] md:text-[16px]">
-            シンプルで洗練されたリカバリーウェアを、TerraGraceの世界観とともに。
-            商品一覧から各モデルをご確認いただけます。
+            シンプルで洗練されたデザインと、やさしく寄り添う着心地。
+            TerraGraceの世界観を、商品一覧からご覧ください。
           </p>
 
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
