@@ -51,8 +51,8 @@ export default function Home() {
 
                 <h1 className="mt-5 text-[32px] font-semibold leading-[1.28] tracking-[-0.04em] sm:text-[42px] md:text-[54px] xl:text-[62px]">
                   それは、ただのＴシャツではない。<br />
-                  日本の大地が生んだ、<br />
-                  新しいリカバリーウェアのかたち。
+                  日本の大地が生んだ、新しいリカバリーウェアのかたち。<br />
+                  
                 </h1>
 
                 <p className="mt-8 max-w-[720px] text-[15px] leading-[2] text-neutral-700 sm:text-[16px]">
