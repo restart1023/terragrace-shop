@@ -49,9 +49,9 @@ export default function Home() {
   リカバリーウェア
 </p>
 
-                <div className="mt-8 text-center">
-  <h1 className="text-[#7fa1a9] font-semibold leading-[1.6] tracking-[0.05em]
-  text-[22px] sm:text-[28px] md:text-[34px] lg:text-[40px] xl:text-[46px]">
+                <div className="mt-10 text-center">
+  <h1 className="text-[#7fa1a9] font-semibold leading-[1.7] tracking-[0.05em]
+  text-[24px] sm:text-[30px] md:text-[34px] lg:text-[38px] xl:text-[42px]">
     
     それは、ただのＴシャツではない。<br />
     日本の大地が生んだ、新しいリカバリーウェアのかたち。
