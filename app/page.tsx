@@ -129,7 +129,7 @@ export default function Home() {
               href="/products"
               className="inline-flex min-h-[48px] w-full items-center justify-center border border-black px-6 text-center text-[12px] font-semibold tracking-[0.08em] transition hover:bg-black hover:text-white sm:w-auto"
             >
-              商品一覧を見る
+              商品一覧
             </Link>
           </div>
 
