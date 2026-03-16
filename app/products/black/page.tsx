@@ -22,29 +22,31 @@ export default function BlackProductPage() {
 
   return (
     <main className="min-h-screen bg-white text-black">
-      <section className="border-b border-neutral-200">
-        <div className="mx-auto max-w-[1440px] px-5 py-12 sm:px-8 md:px-10 md:py-16 lg:px-12">
-          <p className="text-[11px] font-medium uppercase tracking-[0.24em] text-neutral-500 sm:text-[12px]">
-            Black
+      <section className="border-b border-neutral-200 bg-white">
+        <div className="mx-auto max-w-[1600px] px-6 py-12 sm:px-10 md:px-14 md:py-16 lg:px-16 xl:px-20">
+          <p className="text-[11px] font-medium uppercase tracking-[0.22em] text-neutral-500 sm:text-[12px]">
+            BLACK
           </p>
-          <h1 className="mt-4 text-[34px] font-semibold leading-[1.05] tracking-[-0.04em] sm:text-[46px] md:text-[56px]">
+
+          <h1 className="mt-4 text-[34px] font-semibold leading-[1.08] tracking-[-0.04em] sm:text-[42px] md:text-[50px]">
             TerraGrace ブラック
           </h1>
         </div>
       </section>
 
       <section className="border-b border-neutral-200 bg-white">
-        <div className="mx-auto grid max-w-[1440px] grid-cols-1 lg:grid-cols-[1.05fr_0.95fr]">
-          <div className="border-b border-neutral-200 bg-[#f5f5f5] lg:border-b-0 lg:border-r">
-            <div className="p-4 sm:p-6 md:p-8">
-              <div className="flex min-h-[360px] items-center justify-center bg-[#f5f5f5] sm:min-h-[480px] md:min-h-[680px]">
+        <div className="mx-auto grid max-w-[1600px] grid-cols-1 lg:grid-cols-[1.05fr_0.95fr]">
+          {/* LEFT */}
+          <div className="border-b border-neutral-200 bg-[#f5f5f3] lg:border-b-0 lg:border-r">
+            <div className="p-4 sm:p-6 md:p-8 lg:p-10">
+              <div className="flex min-h-[360px] items-center justify-center bg-[#f5f5f3] sm:min-h-[480px] md:min-h-[700px]">
                 <Image
                   src={selectedImage}
-                  alt="TerraGrace Black"
+                  alt="TerraGrace ブラック"
                   width={1400}
                   height={1600}
-                  className="h-full max-h-[680px] w-full object-contain"
                   priority
+                  className="h-full max-h-[720px] w-full object-contain"
                 />
               </div>
 
@@ -60,10 +62,10 @@ export default function BlackProductPage() {
                         : "border-neutral-200 bg-white hover:border-black"
                     }`}
                   >
-                    <div className="flex h-[72px] items-center justify-center bg-[#f5f5f5] sm:h-[84px] md:h-[100px]">
+                    <div className="flex h-[72px] items-center justify-center bg-[#f5f5f3] sm:h-[84px] md:h-[100px]">
                       <Image
                         src={image}
-                        alt={`TerraGrace Black ${index + 1}`}
+                        alt={`TerraGrace ブラック ${index + 1}`}
                         width={500}
                         height={600}
                         className="h-full w-full object-contain"
@@ -75,27 +77,28 @@ export default function BlackProductPage() {
             </div>
           </div>
 
+          {/* RIGHT */}
           <div className="bg-white">
-            <div className="px-5 py-10 sm:px-8 md:px-10 md:py-12 lg:px-10">
+            <div className="px-6 py-10 sm:px-10 md:px-14 md:py-12 lg:px-12 xl:px-14">
               <p className="text-[11px] font-medium uppercase tracking-[0.22em] text-neutral-500 sm:text-[12px]">
-                Black
+                BLACK
               </p>
 
               <h2 className="mt-3 text-[28px] font-semibold leading-[1.08] tracking-[-0.03em] sm:text-[34px] md:text-[42px]">
                 TerraGrace ブラック
               </h2>
 
-              <p className="mt-4 text-[22px] font-semibold tracking-[-0.02em]">
+              <p className="mt-4 text-[22px] font-semibold tracking-[-0.02em] text-black">
                 ¥8,800
               </p>
 
               <p className="mt-6 text-[14px] leading-[2] text-neutral-600 sm:text-[15px]">
-                落ち着きと洗練を感じる、深みのある定番カラー。
-                モダンでシャープな印象を持つブラックモデルです。
+                落ち着きと洗練をあわせ持つ、静かな存在感のブラックモデル。
+                余白を引き締めながら、上質でモダンな印象を演出します。
               </p>
 
               <div className="mt-8 border-t border-neutral-200 pt-8">
-                <p className="text-[12px] font-semibold tracking-[0.08em]">
+                <p className="text-[12px] font-semibold tracking-[0.08em] text-black">
                   サイズを選ぶ
                 </p>
 
@@ -123,14 +126,14 @@ export default function BlackProductPage() {
                     <p className="text-[12px] font-semibold uppercase tracking-[0.18em] text-neutral-500">
                       Material
                     </p>
-                    <p className="mt-2 text-[14px]">ポリエステル100%</p>
+                    <p className="mt-2 text-[14px] text-black">ポリエステル100%</p>
                   </div>
 
                   <div>
                     <p className="text-[12px] font-semibold uppercase tracking-[0.18em] text-neutral-500">
                       Color
                     </p>
-                    <p className="mt-2 text-[14px]">ブラック</p>
+                    <p className="mt-2 text-[14px] text-black">ブラック</p>
                   </div>
 
                   <div>
@@ -138,7 +141,7 @@ export default function BlackProductPage() {
                       Details
                     </p>
                     <p className="mt-2 text-[14px] leading-[2] text-neutral-600">
-                      シックでミニマルな存在感があり、TerraGraceの世界観を最も端的に感じやすい一着です。
+                      深みのある黒が、ミニマルな輪郭と静かな緊張感を引き立てる一着です。
                     </p>
                   </div>
                 </div>
@@ -151,26 +154,16 @@ export default function BlackProductPage() {
 
                 <div className="mt-5 space-y-4 text-[14px] leading-[2] text-neutral-600">
                   <p>
-                    リカバリーウェア「TerraGrace」。
-                    大地の恵みから生まれた“やすらぎのエネルギー”をテーマにしたウェアです。
+                    リカバリーウェア「TerraGrace」は、大地の恵みから生まれた
+                    “やすらぎのエネルギー”をテーマにした一着です。
                   </p>
                   <p>
-                    地殻変動で生まれ育まれた特別な鉱石「貴陽石」は、
-                    群馬県利根郡片品村・群馬長石鉱床でのみ採掘される神秘の天然石です。
+                    特別な鉱石「貴陽石」を繊維生地にプリントし、まるで温泉に包まれるような感覚で、
+                    やさしく寄り添う着心地を目指しました。
                   </p>
                   <p>
-                    この鉱石は、遠赤外線・近赤外線・テラヘルツ波・マイナスイオンを放射する特性を持ち、
-                    自然のぬくもりを感じさせてくれます。
-                  </p>
-                  <p>
-                    背中と胸元、身体の要となる部分に配置された貴陽石を含んだ特殊プリント。
-                    大自然が育んだ鉱石の力が目に見えない「波」となり、
-                    頑張るあなたの毎日をサポートします。
-                  </p>
-                  <p>
-                    ポリエステル100%の機能素材は軽く、乾きやすく、ストレスフリー。
-                    他のウェアでは物足りなさを感じていた方にもぜひ選んでほしい、
-                    大人のためのコンディショニングウェアです。
+                    ブラックは、落ち着きと洗練を両立しやすく、
+                    都会的で静かな存在感を求める方におすすめです。
                   </p>
                 </div>
               </div>
@@ -198,8 +191,8 @@ export default function BlackProductPage() {
       </section>
 
       <section className="bg-white">
-        <div className="mx-auto grid max-w-[1440px] grid-cols-1 md:grid-cols-2">
-          <div className="border-b border-neutral-200 px-5 py-12 sm:px-8 md:border-b-0 md:border-r md:px-10">
+        <div className="mx-auto grid max-w-[1600px] grid-cols-1 md:grid-cols-2">
+          <div className="border-b border-neutral-200 px-6 py-12 sm:px-10 md:border-b-0 md:border-r md:px-14 lg:px-16 xl:px-20">
             <p className="text-[12px] font-medium uppercase tracking-[0.22em] text-neutral-500">
               Impression
             </p>
@@ -207,11 +200,12 @@ export default function BlackProductPage() {
               Sharp & Essential
             </h3>
             <p className="mt-5 max-w-[560px] text-[14px] leading-[2] text-neutral-600">
-              ブラックは、落ち着きと洗練を両立しやすく、シックで都会的な雰囲気を求める方におすすめです。
+              ブラックは、落ち着きと洗練を両立しやすく、
+              シックで都会的な雰囲気を大切にしたい方におすすめです。
             </p>
           </div>
 
-          <div className="px-5 py-12 sm:px-8 md:px-10">
+          <div className="px-6 py-12 sm:px-10 md:px-14 lg:px-16 xl:px-20">
             <p className="text-[12px] font-medium uppercase tracking-[0.22em] text-neutral-500">
               Styling
             </p>
@@ -219,7 +213,8 @@ export default function BlackProductPage() {
               Clean Presence
             </h3>
             <p className="mt-5 max-w-[560px] text-[14px] leading-[2] text-neutral-600">
-              余白とシルエットを活かしたデザインにより、日常の中でもシャープな存在感を保ちます。
+              深みのある黒が全体の印象を引き締め、
+              日常の装いの中にも静かな存在感を与えてくれます。
             </p>
           </div>
         </div>
