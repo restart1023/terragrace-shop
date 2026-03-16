@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const products = [
   {
-    title: "TerraGrace ホワイト",
+  
     subtitle: "WHITE",
     href: "/products/white",
     image: "/product-white.jpg",
