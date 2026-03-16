@@ -156,10 +156,6 @@ export default function Home() {
                     {product.subtitle}
                   </p>
 
-                  <h3 className="mt-3 text-[24px] font-semibold tracking-[-0.03em] sm:text-[30px] md:text-[34px]">
-                    {product.title}
-                  </h3>
-
                   <p className="mx-auto mt-4 max-w-[420px] text-[14px] leading-[2] text-neutral-600 sm:text-[15px]">
                     {product.description}
                   </p>
