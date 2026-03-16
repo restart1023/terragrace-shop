@@ -202,32 +202,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* INFO STRIP */}
-      <section className="border-b border-neutral-200 bg-black text-white">
-        <div className="mx-auto grid max-w-[1600px] grid-cols-1 gap-6 px-6 py-10 sm:px-10 md:grid-cols-3 md:px-14 lg:px-16 xl:px-20">
-          <div>
-            <p className="text-[10px] uppercase tracking-[0.22em] text-neutral-400 sm:text-[11px]">
-              Color
-            </p>
-            <p className="mt-3 text-[18px] font-semibold">WHITE / BLACK</p>
-          </div>
-
-          <div>
-            <p className="text-[10px] uppercase tracking-[0.22em] text-neutral-400 sm:text-[11px]">
-              Size
-            </p>
-            <p className="mt-3 text-[18px] font-semibold">S / M / L / LL / 3L / 4L</p>
-          </div>
-
-          <div>
-            <p className="text-[10px] uppercase tracking-[0.22em] text-neutral-400 sm:text-[11px]">
-              Price
-            </p>
-            <p className="mt-3 text-[18px] font-semibold">¥8,800</p>
-          </div>
-        </div>
-      </section>
-
       {/* FINAL CTA */}
       <section className="bg-white">
         <div className="mx-auto max-w-[980px] px-6 py-16 text-center sm:px-10 md:py-24">
