@@ -49,11 +49,15 @@ export default function Home() {
   リカバリーウェア
 </p>
 
-                <h1 className="mt-5 text-[28px] font-semibold leading-[1.4] tracking-[-0.03em] sm:text-[36px] md:text-[42px] xl:text-[48px]">
-                  それは、ただのＴシャツではない。<br />
-                  日本の大地が生んだ、新しいリカバリーウェアのかたち。<br />
-                  
-                </h1>
+                <div className="mt-8 text-center">
+  <h1 className="text-[#7fa1a9] font-semibold leading-[1.6] tracking-[0.05em]
+  text-[22px] sm:text-[28px] md:text-[34px] lg:text-[40px] xl:text-[46px]">
+    
+    それは、ただのＴシャツではない。<br />
+    日本の大地が生んだ、新しいリカバリーウェアのかたち。
+    
+  </h1>
+</div>
 
                 <p className="mt-8 max-w-[720px] text-[15px] leading-[2] text-neutral-700 sm:text-[16px]">
                   大地の恵みから生まれた“やすらぎのエネルギー”
