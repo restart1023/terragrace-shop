@@ -49,7 +49,7 @@ export default function Home() {
   リカバリーウェア
 </p>
 
-                <h1 className="mt-5 text-[32px] font-semibold leading-[1.28] tracking-[-0.04em] sm:text-[42px] md:text-[54px] xl:text-[62px]">
+                <h1 className="mt-5 text-[28px] font-semibold leading-[1.4] tracking-[-0.03em] sm:text-[36px] md:text-[42px] xl:text-[48px]">
                   それは、ただのＴシャツではない。<br />
                   日本の大地が生んだ、新しいリカバリーウェアのかたち。<br />
                   
