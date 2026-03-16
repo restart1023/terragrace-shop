@@ -90,14 +90,14 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <<div className="mt-10 flex justify-start">
-  <Link
-    href="/products"
-    className="inline-flex min-h-[52px] items-center justify-center bg-black px-8 text-center text-[12px] font-semibold tracking-[0.08em] text-white transition hover:opacity-85"
-  >
-    商品一覧ページを見る
-  </Link>
-</div>
+                    <div className="mt-10 flex justify-start">
+                      <Link
+                        href="/products"
+                        className="inline-flex min-h-[52px] items-center justify-center bg-black px-8 text-center text-[12px] font-semibold tracking-[0.08em] text-white transition hover:opacity-85"
+                      >
+                        商品一覧ページを見る
+                      </Link>
+                    </div>
 
                     <div className="mt-10 grid gap-5 border-t border-neutral-200 pt-7 sm:grid-cols-3 sm:gap-6">
                       <div>
@@ -128,18 +128,18 @@ export default function Home() {
           </div>
 
           {/* RIGHT */}
-<div className="bg-[#f5f5f3]">
-  <div className="flex min-h-[420px] items-center justify-center px-6 py-10 sm:px-10 sm:py-12 md:min-h-[560px] md:px-12 lg:min-h-[980px] lg:px-16 lg:py-16 xl:px-20">
-    <Image
-      src="/hero.jpg"
-      alt="TerraGrace Hero"
-      width={2000}
-      height={2400}
-      priority
-      className="h-auto max-h-[860px] w-full object-contain"
-    />
-  </div>
-</div>
+          <div className="bg-[#f5f5f3]">
+            <div className="flex min-h-[420px] items-center justify-center px-6 py-10 sm:px-10 sm:py-12 md:min-h-[560px] md:px-12 lg:min-h-[980px] lg:px-16 lg:py-16 xl:px-20">
+              <Image
+                src="/hero.jpg"
+                alt="TerraGrace Hero"
+                width={2000}
+                height={2400}
+                priority
+                className="h-auto max-h-[860px] w-full object-contain"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -278,13 +278,13 @@ export default function Home() {
           </p>
 
           <div className="mt-8 flex justify-center">
-  <Link
-    href="/products"
-    className="inline-flex min-h-[50px] items-center justify-center bg-black px-7 text-center text-[12px] font-semibold tracking-[0.08em] text-white transition hover:opacity-85"
-  >
-    商品一覧ページを見る
-  </Link>
-</div>
+            <Link
+              href="/products"
+              className="inline-flex min-h-[50px] items-center justify-center bg-black px-7 text-center text-[12px] font-semibold tracking-[0.08em] text-white transition hover:opacity-85"
+            >
+              商品一覧ページを見る
+            </Link>
+          </div>
         </div>
       </section>
     </main>
