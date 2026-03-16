@@ -278,12 +278,7 @@ export default function Home() {
           </p>
 
           <div className="mt-8 flex justify-center">
-            <Link
-  href="/products"
-  className="inline-flex min-h-[52px] items-center justify-center bg-black px-8 text-center text-[14px] font-semibold tracking-[0.08em] text-white transition hover:opacity-85"
->
-  商品一覧を見る
-</Link>
+  
           </div>
         </div>
       </section>
