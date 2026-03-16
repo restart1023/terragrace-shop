@@ -90,21 +90,14 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-                      <Link
-                        href="/products"
-                        className="inline-flex min-h-[52px] items-center justify-center bg-black px-8 text-center text-[12px] font-semibold tracking-[0.08em] text-white transition hover:opacity-85"
-                      >
-                        商品一覧を見る
-                      </Link>
-
-                      <Link
-                        href="/contact"
-                        className="inline-flex min-h-[52px] items-center justify-center border border-black px-8 text-center text-[12px] font-semibold tracking-[0.08em] text-black transition hover:bg-black hover:text-white"
-                      >
-                        お問い合わせはこちら
-                      </Link>
-                    </div>
+                    <<div className="mt-10 flex justify-start">
+  <Link
+    href="/products"
+    className="inline-flex min-h-[52px] items-center justify-center bg-black px-8 text-center text-[12px] font-semibold tracking-[0.08em] text-white transition hover:opacity-85"
+  >
+    商品一覧ページを見る
+  </Link>
+</div>
 
                     <div className="mt-10 grid gap-5 border-t border-neutral-200 pt-7 sm:grid-cols-3 sm:gap-6">
                       <div>
@@ -284,21 +277,14 @@ export default function Home() {
             TerraGraceの世界観を、商品一覧からご覧ください。
           </p>
 
-          <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-            <Link
-              href="/products"
-              className="inline-flex min-h-[50px] items-center justify-center bg-black px-7 text-center text-[12px] font-semibold tracking-[0.08em] text-white transition hover:opacity-85"
-            >
-              商品一覧を見る
-            </Link>
-
-            <Link
-              href="/contact"
-              className="inline-flex min-h-[50px] items-center justify-center border border-black px-7 text-center text-[12px] font-semibold tracking-[0.08em] transition hover:bg-black hover:text-white"
-            >
-              お問い合わせはこちら
-            </Link>
-          </div>
+          <div className="mt-8 flex justify-center">
+  <Link
+    href="/products"
+    className="inline-flex min-h-[50px] items-center justify-center bg-black px-7 text-center text-[12px] font-semibold tracking-[0.08em] text-white transition hover:opacity-85"
+  >
+    商品一覧ページを見る
+  </Link>
+</div>
         </div>
       </section>
     </main>
