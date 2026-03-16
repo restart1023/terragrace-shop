@@ -135,18 +135,18 @@ export default function Home() {
           </div>
 
           {/* RIGHT */}
-          <div className="bg-[#f5f5f3]">
-            <div className="flex min-h-[420px] items-center justify-center px-6 py-10 sm:px-10 sm:py-12 md:min-h-[560px] md:px-12 lg:min-h-[980px] lg:px-14 lg:py-14">
-              <Image
-                src="/hero.jpg"
-                alt="TerraGrace Hero"
-                width={2000}
-                height={2400}
-                priority
-                className="h-auto max-h-[840px] w-full object-contain"
-              />
-            </div>
-          </div>
+<div className="bg-[#f5f5f3]">
+  <div className="flex min-h-[420px] items-center justify-center px-6 py-10 sm:px-10 sm:py-12 md:min-h-[560px] md:px-12 lg:min-h-[980px] lg:px-16 lg:py-16 xl:px-20">
+    <Image
+      src="/hero.jpg"
+      alt="TerraGrace Hero"
+      width={2000}
+      height={2400}
+      priority
+      className="h-auto max-h-[860px] w-full object-contain"
+    />
+  </div>
+</div>
         </div>
       </section>
 

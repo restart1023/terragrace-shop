@@ -25,21 +25,27 @@ export default function RootLayout({
             </div>
 
             {/* HEADER */}
-            <header className="border-b border-neutral-200 bg-white">
-              <div className="mx-auto flex max-w-[1600px] items-center justify-between px-4 py-5 sm:px-6 md:px-10 lg:px-12 xl:px-16">
+            <header className="sticky top-0 z-50 border-b border-neutral-200 bg-white/95 backdrop-blur">
+              <div className="mx-auto flex max-w-[1600px] items-center justify-between px-4 py-4 sm:px-6 md:px-10 lg:px-12 xl:px-16">
                 {/* LEFT */}
                 <nav className="hidden items-center gap-8 md:flex">
                   <Link
                     href="/products"
-                    className="text-[12px] font-medium tracking-[0.18em] text-black transition hover:opacity-60"
+                    className="text-[12px] font-medium tracking-[0.16em] text-black transition hover:opacity-60"
                   >
-                    SHOP
+                    商品一覧
                   </Link>
                   <Link
                     href="/faq"
-                    className="text-[12px] font-medium tracking-[0.18em] text-black transition hover:opacity-60"
+                    className="text-[12px] font-medium tracking-[0.16em] text-black transition hover:opacity-60"
                   >
                     FAQ
+                  </Link>
+                  <Link
+                    href="/company"
+                    className="text-[12px] font-medium tracking-[0.16em] text-black transition hover:opacity-60"
+                  >
+                    会社情報
                   </Link>
                 </nav>
 
@@ -47,13 +53,13 @@ export default function RootLayout({
                 <div className="flex items-center gap-4 md:hidden">
                   <Link
                     href="/products"
-                    className="text-[11px] font-medium tracking-[0.14em] text-black"
+                    className="text-[11px] font-medium tracking-[0.12em] text-black"
                   >
-                    SHOP
+                    商品一覧
                   </Link>
                   <Link
                     href="/faq"
-                    className="text-[11px] font-medium tracking-[0.14em] text-black"
+                    className="text-[11px] font-medium tracking-[0.12em] text-black"
                   >
                     FAQ
                   </Link>
@@ -68,7 +74,7 @@ export default function RootLayout({
                     <img
                       src="/logo.png"
                       alt="TerraGrace"
-                      className="h-auto w-[52px] sm:w-[60px]"
+                      className="h-auto w-[58px] sm:w-[66px]"
                     />
                     <span className="mt-1 text-[14px] font-semibold tracking-[-0.02em] sm:text-[16px]">
                       TerraGrace
@@ -80,23 +86,16 @@ export default function RootLayout({
                 <div className="ml-auto flex items-center gap-3 sm:gap-4 md:gap-5">
                   <Link
                     href="/contact"
-                    className="hidden text-[12px] font-medium tracking-[0.18em] text-black transition hover:opacity-60 sm:inline-block"
+                    className="hidden text-[12px] font-medium tracking-[0.16em] text-black transition hover:opacity-60 sm:inline-block"
                   >
-                    CONTACT
-                  </Link>
-
-                  <Link
-                    href="/products"
-                    className="hidden min-h-[42px] items-center justify-center border border-black px-5 text-[11px] font-semibold tracking-[0.14em] text-black transition hover:bg-black hover:text-white sm:inline-flex"
-                  >
-                    PRODUCTS
+                    お問い合わせ
                   </Link>
 
                   <Link
                     href="/cart"
-                    className="inline-flex min-h-[42px] items-center justify-center bg-black px-4 text-[11px] font-semibold tracking-[0.14em] text-white transition hover:opacity-85 sm:px-5"
+                    className="inline-flex min-h-[42px] items-center justify-center border border-black px-4 text-[11px] font-semibold tracking-[0.12em] text-black transition hover:bg-black hover:text-white sm:px-5"
                   >
-                    CART (<CartCount />)
+                    カート（<CartCount />）
                   </Link>
                 </div>
               </div>
