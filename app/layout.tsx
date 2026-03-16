@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import "./globals.css";
 import { CartProvider } from "@/components/cart-context";
-import CartCount from "@/components/cart-count";
+
 
 export const metadata: Metadata = {
   title: "TerraGrace",
@@ -19,15 +20,12 @@ export default function RootLayout({
       <body className="bg-white text-black antialiased">
         <CartProvider>
           <div className="min-h-screen bg-white text-black">
-            {/* TOP BAR */}
             <div className="border-b border-black bg-black px-4 py-2 text-center text-[10px] font-medium tracking-[0.18em] text-white sm:text-[11px]">
               OFFICIAL ONLINE STORE
             </div>
 
-            {/* HEADER */}
             <header className="sticky top-0 z-50 border-b border-neutral-200 bg-white/95 backdrop-blur">
-              <div className="mx-auto flex max-w-[1600px] items-center justify-between px-4 py-4 sm:px-6 md:px-10 lg:px-12 xl:px-16">
-                {/* LEFT */}
+              <div className="relative mx-auto flex max-w-[1600px] items-center justify-between px-4 py-4 sm:px-6 md:px-10 lg:px-12 xl:px-16">
                 <nav className="hidden items-center gap-8 md:flex">
                   <Link
                     href="/products"
@@ -49,7 +47,6 @@ export default function RootLayout({
                   </Link>
                 </nav>
 
-                {/* MOBILE LEFT */}
                 <div className="flex items-center gap-4 md:hidden">
                   <Link
                     href="/products"
@@ -65,16 +62,18 @@ export default function RootLayout({
                   </Link>
                 </div>
 
-                {/* CENTER LOGO */}
                 <Link
                   href="/"
                   className="absolute left-1/2 -translate-x-1/2 text-center"
                 >
                   <div className="flex flex-col items-center">
-                    <img
+                    <Image
                       src="/logo.png"
                       alt="TerraGrace"
+                      width={66}
+                      height={66}
                       className="h-auto w-[58px] sm:w-[66px]"
+                      priority
                     />
                     <span className="mt-1 text-[14px] font-semibold tracking-[-0.02em] sm:text-[16px]">
                       TerraGrace
@@ -82,7 +81,6 @@ export default function RootLayout({
                   </div>
                 </Link>
 
-                {/* RIGHT */}
                 <div className="ml-auto flex items-center gap-3 sm:gap-4 md:gap-5">
                   <Link
                     href="/contact"
@@ -92,19 +90,17 @@ export default function RootLayout({
                   </Link>
 
                   <Link
-                    href="/cart"
-                    className="inline-flex min-h-[42px] items-center justify-center border border-black px-4 text-[11px] font-semibold tracking-[0.12em] text-black transition hover:bg-black hover:text-white sm:px-5"
-                  >
-                    カート（<CartCount />）
-                  </Link>
+  href="/cart"
+  className="inline-flex min-h-[42px] items-center justify-center border border-black px-4 text-[11px] font-semibold tracking-[0.12em] text-black transition hover:bg-black hover:text-white sm:px-5"
+>
+  カート
+</Link>
                 </div>
               </div>
             </header>
 
-            {/* MAIN */}
             {children}
 
-            {/* FOOTER */}
             <footer className="border-t border-neutral-200 bg-white">
               <div className="mx-auto max-w-[1600px] px-6 py-14 sm:px-10 md:px-14 lg:px-16 xl:px-20">
                 <div className="grid grid-cols-1 gap-10 border-b border-neutral-200 pb-10 md:grid-cols-[1.1fr_0.9fr]">
