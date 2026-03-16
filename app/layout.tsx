@@ -71,7 +71,7 @@ export default function RootLayout({
     alt="TerraGrace"
     width={120}
     height={120}
-    className="h-auto w-[120px] sm:w-[200px]"
+    className="h-auto w-[120px] sm:w-[250px]"
     priority
   />
 </Link>
