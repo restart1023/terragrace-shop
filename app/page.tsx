@@ -51,11 +51,14 @@ export default function Home() {
                   </p>
 
                   <div className="mt-8 text-center">
-                    <h1 className="text-[#7fa1a9] font-semibold leading-[1.55] tracking-[0.02em] text-[24px] sm:text-[30px] md:text-[38px] lg:text-[46px] xl:text-[54px]">
-                      それは、ただのＴシャツではない。
-                      <br />
-                      日本の大地が生んだ、新しいリカバリーウェアのかたち。
-                    </h1>
+                    <h1 className="mx-auto max-w-[1100px] text-[#7fa1a9] text-center font-semibold leading-[1.45] tracking-[0.01em] text-[22px] sm:text-[28px] md:text-[40px] lg:text-[48px]">
+  <span className="block whitespace-nowrap">
+    それは、ただのTシャツではない。
+  </span>
+  <span className="mt-2 block whitespace-nowrap md:mt-3">
+    日本の大地が生んだ、新しいリカバリーウェアのかたち。
+  </span>
+</h1>
                   </div>
 
                   <div className="mt-10 max-w-[980px]">
