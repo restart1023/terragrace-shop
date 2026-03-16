@@ -166,7 +166,7 @@ export default function Home() {
                   </p>
 
                   <div className="mt-6 inline-flex min-h-[48px] items-center justify-center bg-black px-6 text-[12px] font-semibold tracking-[0.08em] text-white transition hover:opacity-85">
-                    商品詳細を見る
+                    商品詳細
                   </div>
                 </div>
               </Link>
@@ -183,7 +183,7 @@ export default function Home() {
               FEATURES
             </p>
             <h2 className="mt-4 text-[32px] font-semibold leading-[1.08] tracking-[-0.04em] sm:text-[40px] md:text-[48px]">
-              TerraGrace の特徴
+              TerraGraceの特徴
             </h2>
           </div>
 
