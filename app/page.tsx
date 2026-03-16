@@ -51,7 +51,7 @@ export default function Home() {
 
                 <div className="mt-10 text-center">
   <h1 className="text-[#7fa1a9] font-semibold leading-[1.7] tracking-[0.05em]
-  text-[24px] sm:text-[30px] md:text-[34px] lg:text-[38px] xl:text-[42px]">
+  text-[20px] sm:text-[30px] md:text-[34px] lg:text-[38px] xl:text-[42px]">
     
     それは、ただのＴシャツではない。<br />
     日本の大地が生んだ、新しいリカバリーウェアのかたち。
