@@ -99,28 +99,6 @@ export default function Home() {
                       </Link>
                     </div>
 
-                    <div className="mt-10 grid gap-5 border-t border-neutral-200 pt-7 sm:grid-cols-3 sm:gap-6">
-                      <div>
-                        <p className="text-[10px] uppercase tracking-[0.22em] text-neutral-500 sm:text-[11px]">
-                          Color
-                        </p>
-                        <p className="mt-2 text-[15px] font-semibold text-black">White / Black</p>
-                      </div>
-
-                      <div>
-                        <p className="text-[10px] uppercase tracking-[0.22em] text-neutral-500 sm:text-[11px]">
-                          Size
-                        </p>
-                        <p className="mt-2 text-[15px] font-semibold text-black">S / M / L / LL</p>
-                      </div>
-
-                      <div>
-                        <p className="text-[10px] uppercase tracking-[0.22em] text-neutral-500 sm:text-[11px]">
-                          Price
-                        </p>
-                        <p className="mt-2 text-[15px] font-semibold text-black">¥8,800</p>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
