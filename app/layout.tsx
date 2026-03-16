@@ -63,23 +63,18 @@ export default function RootLayout({
                 </div>
 
                 <Link
-                  href="/"
-                  className="absolute left-1/2 -translate-x-1/2 text-center"
-                >
-                  <div className="flex flex-col items-center">
-                    <Image
-                      src="/logo.png"
-                      alt="TerraGrace"
-                      width={66}
-                      height={66}
-                      className="h-auto w-[58px] sm:w-[66px]"
-                      priority
-                    />
-                    <span className="mt-1 text-[14px] font-semibold tracking-[-0.02em] sm:text-[16px]">
-                      TerraGrace
-                    </span>
-                  </div>
-                </Link>
+  href="/"
+  className="absolute left-1/2 -translate-x-1/2"
+>
+  <Image
+    src="/logo.png"
+    alt="TerraGrace"
+    width={120}
+    height={120}
+    className="h-auto w-[100px] sm:w-[120px]"
+    priority
+  />
+</Link>
 
                 <div className="ml-auto flex items-center gap-3 sm:gap-4 md:gap-5">
                   <Link
