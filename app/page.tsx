@@ -45,8 +45,9 @@ export default function Home() {
           <div className="border-b border-neutral-200 lg:border-b-0 lg:border-r">
             <div className="flex min-h-auto items-center px-5 py-14 sm:px-8 sm:py-16 md:px-10 md:py-20 lg:min-h-[980px] lg:px-14 xl:px-16">
               <div className="w-full">
-                <p className="text-[11px] font-medium uppercase tracking-[0.28em] text-neutral-500 sm:text-[12px]">
-                </p>
+               <p className="text-[11px] font-medium uppercase tracking-[0.28em] text-neutral-500 sm:text-[12px]">
+  TerraGrace
+</p>
 
                 <h1 className="mt-5 text-[32px] font-semibold leading-[1.28] tracking-[-0.04em] sm:text-[42px] md:text-[54px] xl:text-[62px]">
                   それは、ただのＴシャツではない。<br />
